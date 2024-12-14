@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dev <dev@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: vbonnard <vbonnard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 15:16:40 by dev               #+#    #+#             */
-/*   Updated: 2024/11/21 19:19:17 by dev              ###   ########.fr       */
+/*   Updated: 2024/12/14 14:34:02 by vbonnard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ int	ft_putptr(unsigned long ptr)
 	i = 0;
 	count = 0;
 	if (ptr == 0)
-		return (ft_putstr("0x0"));
+		return (ft_putstr("(nil)"));
 	count += ft_putstr("0x");
 	while (ptr > 0)
 	{
