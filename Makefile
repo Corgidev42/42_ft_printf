@@ -22,7 +22,7 @@ $(NAME): $(OBJS)
 
 # Suppression des fichiers objets
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) $(BONUS_OBJS)
 
 # Suppression complète
 fclean: clean
