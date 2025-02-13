@@ -6,7 +6,7 @@
 /*   By: vbonnard <vbonnard@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 15:15:24 by dev               #+#    #+#             */
-/*   Updated: 2025/02/13 10:05:47 by vbonnard         ###   ########.fr       */
+/*   Updated: 2025/02/13 12:47:50 by vbonnard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,8 @@ int		ft_putunbr(unsigned int n);
 
 /**
 
-	* @brief Calcule le nombre de caractères nécessaires pour afficher un entier signé.
+	* @brief Calcule le nombre de caractères
+		nécessaires pour afficher un entier signé.
  *
  * @param n L'entier dont on veut connaître la taille.
  * @return Le nombre de caractères nécessaires pour afficher l'entier.
@@ -68,7 +69,8 @@ int		number_size(int n);
 
 /**
 
-	* @brief Calcule le nombre de caractères nécessaires pour afficher un entier non signé.
+	* @brief Calcule le nombre de caractères nécessaires
+		pour afficher un entier non signé.
  *
  * @param n L'entier non signé dont on veut connaître la taille.
  * @return Le nombre de caractères nécessaires pour afficher l'entier.
@@ -95,8 +97,9 @@ int		ft_putnbrhexup(unsigned int n);
  * @brief Gère les conversions des spécificateurs de format pour ft_printf.
  *
 
-	* Cette fonction est utilisée en interne par ft_printf pour traiter les différents
- * spécificateurs de format (c, s, d, i, u, x, X, p, %).
+	* Cette fonction est utilisée en
+		interne par ft_printf pour traiter les différents
+ * 			spécificateurs de format (c, s, d, i, u, x, X, p, %).
  *
  * @param format Le caractère de spécification de format.
  * @param args La liste des arguments variadiques.
